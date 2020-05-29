@@ -1,1 +1,1 @@
-from classpyit import ClassPyIt
+from classpyit.classpyit import ClassPyIt
