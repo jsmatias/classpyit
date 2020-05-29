@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="classpyit-pkg-jsmatias", # Replace with your own username
+    name="classpyit", # Replace with your own username
     version="0.0.1",
     author="Jean Matias",
     author_email="smatias.jean@gmail.com",
