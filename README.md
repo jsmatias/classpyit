@@ -14,3 +14,21 @@ import sys
 sys.path
 ```
 
+# Usage
+
+Ex.:
+
+```
+from classipyit import ClassPyIt
+
+d = {'Say Hi': lambda: print('Hello world'), 'age': 2, 0: 'int as a key is replaced by N<int>'}
+
+dObj = ClassPyIt(d)
+
+>> print(dObj.SayHi())
+Hello World
+
+>> print(dObj.N0)
+'int as a key is replaced by N<int>'
+
+```
